@@ -8,6 +8,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Improved
 
+- Added a read-only, filterable chronological vehicle history that brings existing vehicle lifecycle events, linked logs, work-order activity, and injector-service records into one view without inventing missing history.
 - Expanded German and Russian interface coverage across the Support and Vehicles workspaces.
 - Added German and Russian translations for the complete offline Support help library, including instructions, notes, actions, and privacy guidance.
 - Improved German and Russian wording for vehicle details, assignments, capacity summaries, archive controls, and vehicle state labels.
@@ -21,8 +22,9 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Validation
 
+- Verified the vehicle-history data contract and compatibility with supported libraries that do not yet contain injector-session detail tables.
 - Expanded automated localization checks to protect German and Russian coverage from regression.
-- Current development Release builds and focused localization checks pass with zero build warnings and zero build errors.
+- Current development Release builds and all 86 foundation checks pass with zero build warnings and zero build errors.
 
 ## [0.8.99] - 2026-07-26
 
