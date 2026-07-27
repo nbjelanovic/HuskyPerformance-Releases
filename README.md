@@ -18,7 +18,7 @@ The Public Demonstration Preview is designed to let prospective users verify tha
 
 Use copied logs and fictional or test customer information only.
 
-When a verified public package is available, download it from this repository's **Releases** section. Every release will identify the exact version and include SHA-256 checksums.
+When a verified public package is available, download it from this repository's **Releases** section. Every release will identify the exact version and include SHA-256 checksums. See the [public changelog](CHANGELOG.md) for released improvements and work completed for the next validated preview.
 
 ## Professional testing partners wanted
 
@@ -44,3 +44,4 @@ Husky Performance is proprietary software. No open-source license is granted by 
 
 - [Facebook](https://www.facebook.com/HuskyPerformanceApp)
 - [Releases](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases)
+- [Changelog](CHANGELOG.md)
