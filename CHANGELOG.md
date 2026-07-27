@@ -12,6 +12,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 - Added German and Russian translations for the complete offline Support help library, including instructions, notes, actions, and privacy guidance.
 - Improved German and Russian wording for vehicle details, assignments, capacity summaries, archive controls, and vehicle state labels.
 - Clarified the saved analysis-channel preset workflow so users can select channels, choose **Save Current**, name the preset, and reuse it later.
+- Saved analysis workspaces now remember which analysis panels were left expanded or collapsed for each saved log.
 
 ### Fixed
 
