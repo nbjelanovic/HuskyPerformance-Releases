@@ -8,7 +8,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Improved
 
-- Added owner-selectable Professional business profiles for performance/tuning shops, injector testing/cleaning businesses, and combined businesses. The Dashboard identifies the selected profile and prioritizes its Quick Launch actions. Reports opens at a relevant starting template with profile-specific guidance while keeping every report template available and preserving later user choices. Profiles are presentation choices only: every Professional workspace remains available and changing profiles never moves, hides, or deletes records.
+- Added owner-selectable Professional business profiles for performance/tuning shops, injector testing/cleaning businesses, and combined businesses. The Dashboard identifies the selected profile and prioritizes its Quick Launch actions. Reports opens at a relevant starting template with profile-specific guidance while keeping every report template available and preserving later user choices. Guided Setup presents a short recommended starting path for the selected business. Profiles are presentation choices only: every Professional workspace remains available and changing profiles never moves, hides, or deletes records.
 - Added a read-only, filterable chronological vehicle history that brings existing vehicle lifecycle events, linked logs, work-order activity, and injector-service records into one view without inventing missing history.
 - Expanded German and Russian interface coverage across the Support and Vehicles workspaces.
 - Added German and Russian translations for the complete offline Support help library, including instructions, notes, actions, and privacy guidance.
@@ -23,9 +23,9 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Validation
 
-- Verified Professional business-profile selection, safety preview, immutable audit history, restart persistence, reversible switching, dashboard Quick Launch priority, unchanged full navigation, profile-specific report starting points, retained access to every report template, preservation of a user's report-template choice during refresh, and safe fallback for unknown or retired profile IDs.
+- Verified Professional business-profile selection, safety preview, immutable audit history, restart persistence, reversible switching, dashboard Quick Launch priority, unchanged full navigation, profile-specific report starting points, retained access to every report template, preservation of a user's report-template choice during refresh, profile-specific Guided Setup instructions, and safe fallback for unknown or retired profile IDs.
 - Verified the vehicle-history data contract and compatibility with supported libraries that do not yet contain injector-session detail tables.
-- Expanded automated localization checks to protect German and Russian coverage from regression; each currently covers 609 verified mappings.
+- Expanded automated localization checks to protect German and Russian coverage from regression; each currently covers 617 verified mappings.
 - Current development Release builds and all 88 foundation checks pass with zero build warnings and zero build errors.
 
 ## [0.8.99] - 2026-07-26
