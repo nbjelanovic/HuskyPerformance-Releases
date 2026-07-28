@@ -8,7 +8,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Improved
 
-- Added owner-selectable Professional business profiles for performance/tuning shops, injector testing/cleaning businesses, and combined businesses. Profiles are presentation choices only: every Professional workspace remains available and changing profiles never moves, hides, or deletes records.
+- Added owner-selectable Professional business profiles for performance/tuning shops, injector testing/cleaning businesses, and combined businesses. The Dashboard identifies the selected profile and prioritizes its Quick Launch actions. Profiles are presentation choices only: every Professional workspace remains available and changing profiles never moves, hides, or deletes records.
 - Added a read-only, filterable chronological vehicle history that brings existing vehicle lifecycle events, linked logs, work-order activity, and injector-service records into one view without inventing missing history.
 - Expanded German and Russian interface coverage across the Support and Vehicles workspaces.
 - Added German and Russian translations for the complete offline Support help library, including instructions, notes, actions, and privacy guidance.
@@ -23,7 +23,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Validation
 
-- Verified Professional business-profile selection, safety preview, immutable audit history, restart persistence, reversible switching, and safe fallback for unknown or retired profile IDs.
+- Verified Professional business-profile selection, safety preview, immutable audit history, restart persistence, reversible switching, dashboard Quick Launch priority, unchanged full navigation, and safe fallback for unknown or retired profile IDs.
 - Verified the vehicle-history data contract and compatibility with supported libraries that do not yet contain injector-session detail tables.
 - Expanded automated localization checks to protect German and Russian coverage from regression.
 - Current development Release builds and all 88 foundation checks pass with zero build warnings and zero build errors.
