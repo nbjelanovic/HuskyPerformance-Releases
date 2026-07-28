@@ -8,7 +8,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 
 ### Improved
 
-- Confirmed Husky Performance's business-only product direction. Future Preview builds default to Professional business capabilities rather than a Personal or consumer mode. Historical Personal-mode code is retained only for migration and regression safety and is not an offered product path.
+- Confirmed Husky Performance's business-only product direction. Future Preview builds default to Professional business capabilities rather than a Personal or consumer mode. Guided Setup now always uses Business / Shop identity and Professional Open Shop access, and Customers always presents business customer/shop and work-order workflows. Historical Personal-mode code is retained only for migration and regression safety and is not an offered product path.
 - Added owner-selectable Professional business profiles for performance/tuning shops, injector testing/cleaning businesses, and combined businesses. The Dashboard identifies the selected profile, orders its summary cards by the business's configured priorities, and prioritizes its Quick Launch actions. Reports opens at a relevant starting template with profile-specific guidance while keeping every report template available and preserving later user choices. Guided Setup presents a short recommended starting path for the selected business. Profiles are presentation choices only: every Dashboard summary and Professional workspace remains available, and changing profiles never moves, hides, or deletes records.
 - Added a read-only, filterable chronological vehicle history that brings existing vehicle lifecycle events, linked logs, work-order activity, and injector-service records into one view without inventing missing history.
 - Expanded German and Russian interface coverage across the Support and Vehicles workspaces.
@@ -25,6 +25,7 @@ Husky Performance is still pre-release software. Entries under **Unreleased** de
 ### Validation
 
 - Verified an isolated PrivatePreview build visibly defaults to `DEVELOPMENT LICENSE • PROFESSIONAL • SIMULATION` without an environment override, while retaining its Preview label and backup-before-use warning.
+- Verified real Guided Setup behavior for the Business / Shop identity label, Professional Open Shop default, all five setup steps, revisiting, safe Quick Setup, Skip for now, and deferred re-prompt.
 - Verified Professional business-profile selection, safety preview, immutable audit history, restart persistence, reversible switching, dashboard summary-card and Quick Launch priority, unchanged full navigation, profile-specific report starting points, retained access to every report template, preservation of a user's report-template choice during refresh, profile-specific Guided Setup instructions, and safe fallback for unknown or retired profile IDs.
 - Verified the vehicle-history data contract and compatibility with supported libraries that do not yet contain injector-session detail tables.
 - Expanded automated localization checks to protect German and Russian coverage from regression; each currently covers 617 verified mappings.
