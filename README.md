@@ -4,6 +4,13 @@ This repository is the official public download and release-information location
 
 > **Pre-release status:** Husky Performance is under active development and is not yet intended or approved for production shop use.
 
+## Start here
+
+- **[Project Status](PROJECT-STATUS.md)** — the clearest overview of what is available, what is in progress, what may enter the next trial release, and what is on the roadmap
+- **[Download the current preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.8.99-public-demo)** — Husky Performance 0.8.99 Public Demonstration Preview
+- **[Public Changelog](CHANGELOG.md)** — dated development changes and exact numbered-release contents
+- **[Testing Partners](TESTING-PARTNERS.md)** — how established performance shops can provide practical feedback
+
 ## Public Demonstration Preview
 
 The Public Demonstration Preview is designed to let prospective users verify that Husky is a genuine working Windows application.
@@ -36,12 +43,14 @@ Do not publish customer records, raw logs, identifying vehicle information, encr
 
 ## Source code and ownership
 
-This is a **binary-release repository only**. It does not contain the Husky Performance source code, private development history, internal roadmap, or build system.
+This is a **binary-release repository only**. It does not contain the Husky Performance source code, private development history, canonical internal execution plan, or build system. The public [Project Status](PROJECT-STATUS.md) is a plain-language summary and does not expose private implementation material.
 
 Husky Performance is proprietary software. No open-source license is granted by this repository. Copyright © 2026 Husky Performance. All rights reserved.
 
 ## Official links
 
-- [Facebook](https://www.facebook.com/HuskyPerformanceApp)
+- [Project Status](PROJECT-STATUS.md)
 - [Releases](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases)
 - [Changelog](CHANGELOG.md)
+- [Testing Partners](TESTING-PARTNERS.md)
+- [Facebook](https://www.facebook.com/HuskyPerformanceApp)
