@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added consecutive local road-video selection for camera recordings split across multiple MP4/MOV chapters. Simulator orders selected files consistently, treats decoded chapter durations as one continuous video timeline, advances automatically at each boundary, and retains the same log offset and playback state. Single-file selection remains supported, and footage remains reference-only and local.
+
 - Added the first synchronized local road-video mode to Simulator playback. An optional MP4 or MOV can now replace the synthetic scenery while the stable cockpit gauges and evidence-based overlays remain on top; play, pause, timeline seeking, playback speed, and a manual log offset stay synchronized. Video remains reference-only and local—nothing is uploaded. Multi-chapter footage, attachment persistence, codec validation, and owner visual acceptance remain open work.
 
 - Added streaming import support for Car Scanner Pro semicolon-delimited long CSV exports (`SECONDS`, `PID`, `VALUE`, and `UNITS`). Asynchronous PID measurements are normalized to a deterministic 10 Hz review timeline while preserving the existing positional CSV path.
