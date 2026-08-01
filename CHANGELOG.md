@@ -22,6 +22,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added a tightly bounded Simulator video-rate correction beside the log offset. Small camera/proxy clock differences can now be compensated from 0.95× through 1.05× without changing the recorded log timeline or exact gauge samples, and the applied six-decimal rate is disclosed. The supplied GoPro proxy set's evidence-based starting value is approximately `0.998364`.
+
 - Added automatic local GoPro proxy fallback when Windows cannot decode a selected high-frame-rate camera original. Husky keeps the MP4 as the authoritative source, locates its matching `GL...LRV` sidecar, creates an isolated temporary `.mp4` playback proxy, and retries on the same synchronized timeline. Originals remain unchanged and nothing is uploaded. Native Windows probing confirmed that all three supplied 768×432 proxies open successfully; the 119.88-fps original is rejected by the current Windows WPF codec stack.
 
 - Kept the Simulator responsive while a large local road-video file is verified. Reference-only identity work now runs away from the interface thread; playback waits for Windows to confirm that the codec opened, reports decoded dimensions, and safely restores generated scenery with a clear error when decoding fails. The file remains local and nothing is uploaded.
