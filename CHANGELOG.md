@@ -10,6 +10,39 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+### 2026-08-01
+
+#### Added
+
+- Added streaming import support for Car Scanner Pro semicolon-delimited long CSV exports (`SECONDS`, `PID`, `VALUE`, and `UNITS`). Asynchronous PID measurements are normalized to a deterministic 10 Hz review timeline while preserving the existing positional CSV path.
+
+#### Improved
+
+- Limited whole-session Simulator playback to 10 recorded minutes or 250,000 samples. Five-minute segments are recommended for focused pulls, braking tests, and other events. Extended logs remain importable and reviewable, but Simulator rejects them before loading channel arrays and directs the operator to create a bounded segment.
+
+#### Validation
+
+- Imported the complete owner-supplied 219,636,786-byte Armada log containing 3,136,309 source measurements into 187,881 review samples across 66 numeric channels. It archived into the encrypted test library and reopened through the production log-review service; recorded vehicle speed ranged from 0 to 103.15 mph.
+- The full development solution builds with zero warnings and errors, and all 110 foundation checks pass. These Unreleased changes are not included in public version 0.8.99.
+
+### 2026-07-31
+
+#### Added
+
+- Added evidence-driven photographic Simulator environments for Highway, Drag Strip, Brake Test, Garage/Paddock, and a neutral closed test road. Auto mode classifies bounded recorded segments instead of treating every log as a race-track session.
+- Added recorded-event overlays for qualified drag-tree staging and finish markers, the optional brake-test cow, and the optional non-drag 100+ mph “Welcome to Mexico” sign. Humor remains off by default and never changes recorded evidence.
+- Added native end-to-end validation using owner-supplied real logs and isolated drag, brake, highway, and mixed-session fixtures.
+
+#### Improved
+
+- Synchronized scenery, scenario transitions, drag timing, finish distance, brake-stop behavior, road motion, and subtle cockpit body response to the recorded playback timeline while keeping gauges on exact saved samples.
+- Corrected packaged cockpit resources, initial Track View rendering, full-screen compact gauge placement, per-segment drag/highway scope, and cross-scenario overlay cleanup.
+
+#### Validation
+
+- Real-log import, saved review, scenario detection, native overlay workflows, full-screen behavior, and zero-warning builds passed their recorded checkpoints. Packaged owner visual acceptance remains a separate open gate.
+- None of the July 31 Unreleased work is included in public version 0.8.99.
+
 ### 2026-07-30
 
 #### Added
