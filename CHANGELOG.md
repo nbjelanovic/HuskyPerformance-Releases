@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added per-log persistence for local Simulator road-video chapters, synchronization offset, and bounded playback rate. Reopening a saved log restores reference-only chapter order without rehashing multi-gigabyte originals. Persisted SHA-256 identity is paired with current file length and modification time, so missing or changed files are rejected with reselect guidance. Removing Video clears only that log's preference; no video contents, GPS, or route data are stored.
+
 - Added consecutive local road-video selection for camera recordings split across multiple MP4/MOV chapters. Simulator orders selected files consistently, treats decoded chapter durations as one continuous video timeline, advances automatically at each boundary, and retains the same log offset and playback state. Single-file selection remains supported, and footage remains reference-only and local.
 
 - Added the first synchronized local road-video mode to Simulator playback. An optional MP4 or MOV can now replace the synthetic scenery while the stable cockpit gauges and evidence-based overlays remain on top; play, pause, timeline seeking, playback speed, and a manual log offset stay synchronized. Video remains reference-only and local—nothing is uploaded. Multi-chapter footage, attachment persistence, codec validation, and owner visual acceptance remain open work.
