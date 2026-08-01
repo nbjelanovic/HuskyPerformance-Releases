@@ -39,6 +39,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Validation
 
+- Added a compiled isolated persistence regression proving that three ordered Simulator video chapters, the `18.13`-second offset, and the `0.998364` rate survive store reconstruction. The same test independently proves changed-file rejection, missing-file rejection, and durable per-log preference removal without using private footage or the normal Husky library.
+
 - Imported the complete owner-supplied 219,636,786-byte Armada log containing 3,136,309 source measurements into 187,881 review samples across 66 numeric channels. It archived into the encrypted test library and reopened through the production log-review service; recorded vehicle speed ranged from 0 to 103.15 mph.
 - The full development solution builds with zero warnings and errors, and all 111 foundation checks pass. These Unreleased changes are not included in public version 0.8.99.
 
