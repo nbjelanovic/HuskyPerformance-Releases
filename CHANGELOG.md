@@ -20,6 +20,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Kept the Simulator responsive while a large local road-video file is verified. Reference-only identity work now runs away from the interface thread; playback waits for Windows to confirm that the codec opened, reports decoded dimensions, and safely restores generated scenery with a clear error when decoding fails. The file remains local and nothing is uploaded.
+
 - Corrected arcade-like road markers exposed by native Simulator screenshots. Highway edge motion is now faint neutral gray, Brake Test uses subdued safety orange, and alternating red/white markers remain scoped to Drag Strip; peripheral-flow emphasis scales each scenario's intended opacity instead of brightening suppressed markers. A fresh six-screenshot review and the complete 26-assertion native scenario workflow pass.
 - Added slow, bounded lane-and-shoulder width evolution to Simulator playback. Road-edge convergence now varies gently by integrated distance and scenario while cockpit geometry stays fixed; Drag Strip remains nearly uniform, Highway and Brake Test remain restrained, Closed Test Road receives more natural variation, and stationary playback returns to the exact baseline.
 - Smoothed Simulator road evolution across evidence-detected scenario boundaries. Curvature, elevation, pavement texture, peripheral flow, and roadside density now blend through the photographic environment's 550-ms transition instead of snapping at one recorded sample; the blend remains deterministic during pause, seek, replay, and manual environment overrides.
