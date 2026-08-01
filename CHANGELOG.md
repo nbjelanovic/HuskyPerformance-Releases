@@ -18,6 +18,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added restrained, distance-synchronized pavement texture and scenario-specific roadside variation to Simulator playback. The subtle perspective layer follows the existing bounded curve and elevation model, remains subdued on Highway and Drag Strip, and disappears completely during stationary or unknown playback.
 - Added bounded, distance-driven road evolution to Simulator playback. Scenario-specific bends, gentle elevation changes, and restrained peripheral flow now follow recorded speed and integrated visual distance while the cockpit and gauges remain stable. Drag Strip stays nearly straight, Stationary/unknown playback stays exactly still, and all visual movement remains tightly bounded.
 - Limited whole-session Simulator playback to 10 recorded minutes or 250,000 samples. Five-minute segments are recommended for focused pulls, braking tests, and other events. Extended logs remain importable and reviewable, but Simulator rejects them before loading channel arrays and directs the operator to create a bounded segment.
 
