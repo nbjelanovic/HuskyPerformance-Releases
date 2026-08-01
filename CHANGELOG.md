@@ -18,12 +18,13 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added bounded, distance-driven road evolution to Simulator playback. Scenario-specific bends, gentle elevation changes, and restrained peripheral flow now follow recorded speed and integrated visual distance while the cockpit and gauges remain stable. Drag Strip stays nearly straight, Stationary/unknown playback stays exactly still, and all visual movement remains tightly bounded.
 - Limited whole-session Simulator playback to 10 recorded minutes or 250,000 samples. Five-minute segments are recommended for focused pulls, braking tests, and other events. Extended logs remain importable and reviewable, but Simulator rejects them before loading channel arrays and directs the operator to create a bounded segment.
 
 #### Validation
 
 - Imported the complete owner-supplied 219,636,786-byte Armada log containing 3,136,309 source measurements into 187,881 review samples across 66 numeric channels. It archived into the encrypted test library and reopened through the production log-review service; recorded vehicle speed ranged from 0 to 103.15 mph.
-- The full development solution builds with zero warnings and errors, and all 110 foundation checks pass. These Unreleased changes are not included in public version 0.8.99.
+- The full development solution builds with zero warnings and errors, and all 111 foundation checks pass. These Unreleased changes are not included in public version 0.8.99.
 
 ### 2026-07-31
 
