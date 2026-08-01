@@ -18,6 +18,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added slow, bounded lane-and-shoulder width evolution to Simulator playback. Road-edge convergence now varies gently by integrated distance and scenario while cockpit geometry stays fixed; Drag Strip remains nearly uniform, Highway and Brake Test remain restrained, Closed Test Road receives more natural variation, and stationary playback returns to the exact baseline.
 - Smoothed Simulator road evolution across evidence-detected scenario boundaries. Curvature, elevation, pavement texture, peripheral flow, and roadside density now blend through the photographic environment's 550-ms transition instead of snapping at one recorded sample; the blend remains deterministic during pause, seek, replay, and manual environment overrides.
 - Added restrained, distance-synchronized pavement texture and scenario-specific roadside variation to Simulator playback. The subtle perspective layer follows the existing bounded curve and elevation model, remains subdued on Highway and Drag Strip, and disappears completely during stationary or unknown playback.
 - Added bounded, distance-driven road evolution to Simulator playback. Scenario-specific bends, gentle elevation changes, and restrained peripheral flow now follow recorded speed and integrated visual distance while the cockpit and gauges remain stable. Drag Strip stays nearly straight, Stationary/unknown playback stays exactly still, and all visual movement remains tightly bounded.
