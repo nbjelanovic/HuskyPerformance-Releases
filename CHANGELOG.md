@@ -22,6 +22,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added automatic local GoPro proxy fallback when Windows cannot decode a selected high-frame-rate camera original. Husky keeps the MP4 as the authoritative source, locates its matching `GL...LRV` sidecar, creates an isolated temporary `.mp4` playback proxy, and retries on the same synchronized timeline. Originals remain unchanged and nothing is uploaded. Native Windows probing confirmed that all three supplied 768×432 proxies open successfully; the 119.88-fps original is rejected by the current Windows WPF codec stack.
+
 - Kept the Simulator responsive while a large local road-video file is verified. Reference-only identity work now runs away from the interface thread; playback waits for Windows to confirm that the codec opened, reports decoded dimensions, and safely restores generated scenery with a clear error when decoding fails. The file remains local and nothing is uploaded.
 
 - Corrected arcade-like road markers exposed by native Simulator screenshots. Highway edge motion is now faint neutral gray, Brake Test uses subdued safety orange, and alternating red/white markers remain scoped to Drag Strip; peripheral-flow emphasis scales each scenario's intended opacity instead of brightening suppressed markers. A fresh six-screenshot review and the complete 26-assertion native scenario workflow pass.
