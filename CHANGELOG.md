@@ -26,6 +26,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Bounded multi-file Import Log selection to 100 unique paths per review batch and added exact outcome accounting. Batch completion and cancellation now disclose saved, duplicate, skipped, and failed counts plus any remaining files not imported, while preserving logs already committed to the local library. These batch messages are available in English, Spanish, German, and Russian.
+
 - Made Simulator video synchronization controls follow the attached-video lifecycle. Offset, rate, nudge, Apply Sync, and Reset Sync now begin disabled, become available only after a local video is attached or restored, and disable again when playback fails, the video is removed, or the loaded log is cleared.
 
 - Rejected non-finite and extreme Simulator road-video synchronization values before they reach playback or persistence. `NaN`, infinity, and offsets outside ±86,400 seconds now receive bounded input guidance; the stored-preference loader and writer enforce the same limit so malformed local settings cannot create an invalid media seek.
