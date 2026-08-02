@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added atomic owner-decision and external-tester review forms to Husky Planner. One explicit action creates a human-readable worksheet plus structured JSON containing the current 17 decision/design requirements and eight external-test requirements, all tied to one evidence run. Candidate version, commit, package checksum, decisions, and outcomes remain blank; form creation cannot change readiness, approve a release, create a software package, or authorize distribution.
+
 - Added a read-only Release Review window to Husky Planner. Owners can inspect every unresolved release requirement, filter it by package, external evidence, licensing/roles, or owner/legal dependency, and see the exact next action and evidence-run identity. The reader rejects mixed-run, duplicate, invalid, or count-mismatched evidence, and the window cannot create a package, change status, record approval, or authorize distribution.
 
 - Added versioned known-issue and one-version rollback guidance to Preview Safety. Four release-limit groups disclose distribution authorization, incomplete external acceptance, pre-release data risk, and manual package-specific updates. Six ordered recovery steps match Husky Recovery & Rollback, require a verified Complete Backup and retained package checksums, and warn never to open a newer-schema library with an older package. The screen links to Manual Updates and explicitly cannot authorize the running copy for distribution.
