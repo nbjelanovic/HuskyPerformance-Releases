@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added immediate ±0.10-second Simulator video-alignment nudges. Each nudge seeks local video immediately, shows the resulting offset and playback rate, persists per log, and does not modify log timing or exact samples.
+
 - Hardened the local GoPro playback-proxy cache. Valid proxies are reused, new copies remain uniquely partial and unplayable until length verification and atomic promotion complete, and stale cleanup is restricted to Husky-named top-level cache entries. The active proxy, originals, `.LRV` sidecars, subdirectories, and unrelated temporary files are never cleanup targets.
 
 - Added a tightly bounded Simulator video-rate correction beside the log offset. Small camera/proxy clock differences can now be compensated from 0.95× through 1.05× without changing the recorded log timeline or exact gauge samples, and the applied six-decimal rate is disclosed. The supplied GoPro proxy set's evidence-based starting value is approximately `0.998364`.
