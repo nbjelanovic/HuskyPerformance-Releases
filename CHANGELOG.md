@@ -10,6 +10,12 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+### 2026-08-02
+
+#### Added
+
+- Added bounded bulk export for verified Tune Library originals. Operators can review and export up to 25 selected exact revisions into a new non-overwriting folder with a checksum manifest. Husky verifies every source and destination, requires Professional shop-administration authorization and explicit acknowledgement, supports cancellation with incomplete-folder cleanup, and records per-revision plus batch audit evidence. Open Shop attributes the action to a local operator and does not claim verified owner identity or tune safety.
+
 ### 2026-08-01
 
 #### Added
