@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Hardened the local GoPro playback-proxy cache. Valid proxies are reused, new copies remain uniquely partial and unplayable until length verification and atomic promotion complete, and stale cleanup is restricted to Husky-named top-level cache entries. The active proxy, originals, `.LRV` sidecars, subdirectories, and unrelated temporary files are never cleanup targets.
+
 - Added a tightly bounded Simulator video-rate correction beside the log offset. Small camera/proxy clock differences can now be compensated from 0.95× through 1.05× without changing the recorded log timeline or exact gauge samples, and the applied six-decimal rate is disclosed. The supplied GoPro proxy set's evidence-based starting value is approximately `0.998364`.
 
 - Added automatic local GoPro proxy fallback when Windows cannot decode a selected high-frame-rate camera original. Husky keeps the MP4 as the authoritative source, locates its matching `GL...LRV` sidecar, creates an isolated temporary `.mp4` playback proxy, and retries on the same synchronized timeline. Originals remain unchanged and nothing is uploaded. Native Windows probing confirmed that all three supplied 768×432 proxies open successfully; the 119.88-fps original is rejected by the current Windows WPF codec stack.
