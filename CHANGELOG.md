@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added a dedicated Preview Safety status screen in Help & Support. It shows the running build boundary, distinguishes an empty or fictional library from protected existing customer data and a currently verified Complete Backup, exposes only bounded backup identity rather than its full path, repeats copied/isolated-data and no-automatic-upload rules, refreshes verification on demand, and opens Backup & Restore directly when action is required.
+
 - Added bounded bulk export for verified Tune Library originals. Operators can review and export up to 25 selected exact revisions into a new non-overwriting folder with a checksum manifest. Husky verifies every source and destination, requires Professional shop-administration authorization and explicit acknowledgement, supports cancellation with incomplete-folder cleanup, and records per-revision plus batch audit evidence. Open Shop attributes the action to a local operator and does not claim verified owner identity or tune safety.
 
 ### 2026-08-01
