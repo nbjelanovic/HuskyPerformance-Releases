@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added explicit Tune Library relationships for exact revisions. Operators can connect a revision to the saved logs and work orders where it was used, review those links from the library, and remove an incorrect relationship without changing either record. Husky rejects relationships that would mix known vehicles, records link/unlink audit history, and preserves related logs, work orders, lineage, and tune originals during Complete Backup, merge, and selected-tune recovery. The relationship does not compare or interpret calibration contents.
+
 - Added immutable Tune Library version lineage. When attaching a distinct existing file, the operator can identify its parent tune and record a revision note; Husky inherits the parent vehicle, refuses cross-vehicle revision links, and displays the complete baseline-to-branch history without comparing or interpreting calibration contents. Complete Backup, merge, and selected-revision recovery preserve the required parent chain.
 
 - Added a persistent, read-only Tune Library for existing calibration files. Husky encrypts and checksum-verifies exact originals up to 128 MB, rejects exact duplicates, links them to an optional vehicle and work order, exports only to a new destination, and preserves reversible archive history with audit records. Complete Backup, merge, and selected-item recovery retain Tune Library originals; Configuration / Records Backup explicitly excludes and reports them. Husky does not interpret maps, change values, write calibrations, flash vehicles, or claim a tune is safe.
