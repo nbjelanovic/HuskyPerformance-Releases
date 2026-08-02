@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added multi-file selection to Import Log with a review-first batch queue. Operators can choose several CSV logs at once, inspect and save each file through the existing complete channel/metadata review, skip an unsuitable current file, or cancel the remaining queue without undoing logs already committed safely to the local library.
+
 - Added per-log persistence for local Simulator road-video chapters, synchronization offset, and bounded playback rate. Reopening a saved log restores reference-only chapter order without rehashing multi-gigabyte originals. Persisted SHA-256 identity is paired with current file length and modification time, so missing or changed files are rejected with reselect guidance. Removing Video clears only that log's preference; no video contents, GPS, or route data are stored.
 
 - Added consecutive local road-video selection for camera recordings split across multiple MP4/MOV chapters. Simulator orders selected files consistently, treats decoded chapter durations as one continuous video timeline, advances automatically at each boundary, and retains the same log offset and playback state. Single-file selection remains supported, and footage remains reference-only and local.
