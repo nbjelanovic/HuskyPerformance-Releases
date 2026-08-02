@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added a read-only Release Review window to Husky Planner. Owners can inspect every unresolved release requirement, filter it by package, external evidence, licensing/roles, or owner/legal dependency, and see the exact next action and evidence-run identity. The reader rejects mixed-run, duplicate, invalid, or count-mismatched evidence, and the window cannot create a package, change status, record approval, or authorize distribution.
+
 - Added versioned known-issue and one-version rollback guidance to Preview Safety. Four release-limit groups disclose distribution authorization, incomplete external acceptance, pre-release data risk, and manual package-specific updates. Six ordered recovery steps match Husky Recovery & Rollback, require a verified Complete Backup and retained package checksums, and warn never to open a newer-schema library with an older package. The screen links to Manual Updates and explicitly cannot authorize the running copy for distribution.
 
 - Added a dedicated Preview Safety status screen in Help & Support. It shows the running build boundary, distinguishes an empty or fictional library from protected existing customer data and a currently verified Complete Backup, exposes only bounded backup identity rather than its full path, repeats copied/isolated-data and no-automatic-upload rules, refreshes verification on demand, and opens Backup & Restore directly when action is required.
