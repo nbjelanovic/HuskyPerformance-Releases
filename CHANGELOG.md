@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added versioned known-issue and one-version rollback guidance to Preview Safety. Four release-limit groups disclose distribution authorization, incomplete external acceptance, pre-release data risk, and manual package-specific updates. Six ordered recovery steps match Husky Recovery & Rollback, require a verified Complete Backup and retained package checksums, and warn never to open a newer-schema library with an older package. The screen links to Manual Updates and explicitly cannot authorize the running copy for distribution.
+
 - Added a dedicated Preview Safety status screen in Help & Support. It shows the running build boundary, distinguishes an empty or fictional library from protected existing customer data and a currently verified Complete Backup, exposes only bounded backup identity rather than its full path, repeats copied/isolated-data and no-automatic-upload rules, refreshes verification on demand, and opens Backup & Restore directly when action is required.
 
 - Added bounded bulk export for verified Tune Library originals. Operators can review and export up to 25 selected exact revisions into a new non-overwriting folder with a checksum manifest. Husky verifies every source and destination, requires Professional shop-administration authorization and explicit acknowledgement, supports cancellation with incomplete-folder cleanup, and records per-revision plus batch audit evidence. Open Shop attributes the action to a local operator and does not claim verified owner identity or tune safety.
