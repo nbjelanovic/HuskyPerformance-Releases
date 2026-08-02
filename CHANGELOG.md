@@ -111,6 +111,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Fixed
 
+- Clarified vehicle assignment in Logs & Analysis after an owner workflow exposed misleading disabled-state behavior. The vehicle selector now renders the readable vehicle name instead of a raw internal record, assignment requires both an unassigned active log and a selected active vehicle, and nearby guidance explains when a log is already assigned. Existing assignments remain protected from silent reassignment.
+
 - Corrected additional English fallback text that could appear while using German or Russian.
 - Improved consistency of localized dynamic labels and vehicle states.
 
