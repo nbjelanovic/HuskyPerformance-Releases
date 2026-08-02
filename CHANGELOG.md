@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Rejected non-finite and extreme Simulator road-video synchronization values before they reach playback or persistence. `NaN`, infinity, and offsets outside ±86,400 seconds now receive bounded input guidance; the stored-preference loader and writer enforce the same limit so malformed local settings cannot create an invalid media seek.
+
 - Kept displayed Simulator video synchronization values in the active Windows number format after Apply Sync, frame nudges, Reset Sync, and reopening a saved log. Decimal-comma users now see `18,13` and `0,998364` consistently while the culture-independent stored values remain unchanged.
 
 - Made Simulator road-video offset and rate entry accept the active Windows decimal format as well as a decimal point. Decimal-comma users can enter values such as `18,13` and `0,998364`; ambiguous thousands separators remain rejected, while persisted synchronization stays culture-independent.
