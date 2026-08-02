@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Kept displayed Simulator video synchronization values in the active Windows number format after Apply Sync, frame nudges, Reset Sync, and reopening a saved log. Decimal-comma users now see `18,13` and `0,998364` consistently while the culture-independent stored values remain unchanged.
+
 - Made Simulator road-video offset and rate entry accept the active Windows decimal format as well as a decimal point. Decimal-comma users can enter values such as `18,13` and `0,998364`; ambiguous thousands separators remain rejected, while persisted synchronization stays culture-independent.
 
 - Added keyboard alignment controls for active Simulator road video: `Alt+Left` moves video 0.10 second earlier, `Alt+Right` moves it 0.10 second later, and `Alt+0` restores neutral synchronization. Tooltips disclose the shortcuts, and each command uses the same immediate seek and durable per-log save path as its button.
