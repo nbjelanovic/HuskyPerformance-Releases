@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Made Simulator road-video offset and rate entry accept the active Windows decimal format as well as a decimal point. Decimal-comma users can enter values such as `18,13` and `0,998364`; ambiguous thousands separators remain rejected, while persisted synchronization stays culture-independent.
+
 - Added keyboard alignment controls for active Simulator road video: `Alt+Left` moves video 0.10 second earlier, `Alt+Right` moves it 0.10 second later, and `Alt+0` restores neutral synchronization. Tooltips disclose the shortcuts, and each command uses the same immediate seek and durable per-log save path as its button.
 
 - Added a one-click Reset Sync action for Simulator road video. It restores a neutral `0.00 s` offset and `1.000000` playback rate, seeks the local video immediately, discloses the result, and persists the reset for that log without changing recorded timing or samples.
