@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added immutable Tune Library version lineage. When attaching a distinct existing file, the operator can identify its parent tune and record a revision note; Husky inherits the parent vehicle, refuses cross-vehicle revision links, and displays the complete baseline-to-branch history without comparing or interpreting calibration contents. Complete Backup, merge, and selected-revision recovery preserve the required parent chain.
+
 - Added a persistent, read-only Tune Library for existing calibration files. Husky encrypts and checksum-verifies exact originals up to 128 MB, rejects exact duplicates, links them to an optional vehicle and work order, exports only to a new destination, and preserves reversible archive history with audit records. Complete Backup, merge, and selected-item recovery retain Tune Library originals; Configuration / Records Backup explicitly excludes and reports them. Husky does not interpret maps, change values, write calibrations, flash vehicles, or claim a tune is safe.
 
 - Added multi-file selection to Import Log with a review-first batch queue. Operators can choose several CSV logs at once, inspect and save each file through the existing complete channel/metadata review, skip an unsuitable current file, or cancel the remaining queue without undoing logs already committed safely to the local library.
