@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added a persistent, read-only Tune Library for existing calibration files. Husky encrypts and checksum-verifies exact originals up to 128 MB, rejects exact duplicates, links them to an optional vehicle and work order, exports only to a new destination, and preserves reversible archive history with audit records. Complete Backup, merge, and selected-item recovery retain Tune Library originals; Configuration / Records Backup explicitly excludes and reports them. Husky does not interpret maps, change values, write calibrations, flash vehicles, or claim a tune is safe.
+
 - Added multi-file selection to Import Log with a review-first batch queue. Operators can choose several CSV logs at once, inspect and save each file through the existing complete channel/metadata review, skip an unsuitable current file, or cancel the remaining queue without undoing logs already committed safely to the local library.
 
 - Added per-log persistence for local Simulator road-video chapters, synchronization offset, and bounded playback rate. Reopening a saved log restores reference-only chapter order without rehashing multi-gigabyte originals. Persisted SHA-256 identity is paired with current file length and modification time, so missing or changed files are rejected with reselect guidance. Removing Video clears only that log's preference; no video contents, GPS, or route data are stored.
