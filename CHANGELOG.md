@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added guarded completed-form review and an append-only reviewed-evidence ledger to Husky Planner. The importer parses the human-readable worksheet, reconciles its schemas, exact validation run, full requirement inventory, dates, evidence fields, tester metadata, and candidate identity, then requires a named reviewer and explicit acknowledgement. Accepted forms and their SHA-256 hashes are atomically preserved together; exact duplicates and reused record identities with changed content are refused. Intake cannot change readiness, prove a gate by itself, approve a release, or authorize distribution.
+
 - Added atomic owner-decision and external-tester review forms to Husky Planner. One explicit action creates a human-readable worksheet plus structured JSON containing the current 17 decision/design requirements and eight external-test requirements, all tied to one evidence run. Candidate version, commit, package checksum, decisions, and outcomes remain blank; form creation cannot change readiness, approve a release, create a software package, or authorize distribution.
 
 - Added a read-only Release Review window to Husky Planner. Owners can inspect every unresolved release requirement, filter it by package, external evidence, licensing/roles, or owner/legal dependency, and see the exact next action and evidence-run identity. The reader rejects mixed-run, duplicate, invalid, or count-mismatched evidence, and the window cannot create a package, change status, record approval, or authorize distribution.
