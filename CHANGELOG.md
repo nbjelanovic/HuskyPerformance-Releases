@@ -14,6 +14,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Added
 
+- Added a strict candidate-evidence handoff receiver and append-only pending-validation intake queue to Husky Planner. A handoff must match the active run, canonical checklist, exact retained reconciliation-report hash, recomputed minimized items, privacy boundary, and generated Markdown before a named receiver can append it. Every verified queue entry remains `PENDING_MANUAL_VALIDATION` with zero gates changed; duplicate or altered identities are refused, and intake cannot change readiness, approve a release, or authorize distribution.
+
 - Added a source-reverifying reconciliation-report browser and privacy-minimized candidate-evidence handoff to Husky Planner. Reports are displayed only after their exact retained adjudication, hashes, recommendations, active run, and canonical-checklist identity are recomputed and verified. The handoff replaces raw evidence references with SHA-256 digests and excludes names, notes, rationale, local paths, and machine/user identity; it remains routing metadata only and cannot prove a gate, change readiness, approve a release, or authorize distribution.
 
 - Added strict completed-adjudication review and a separate canonical release-checklist reconciliation report to Husky Planner. Completed Markdown is accepted only while its JSON template, reviewed-evidence identity, hashes, validation run, unresolved requirements, and SHA-256-identified checklist remain exact. A second acknowledged review atomically preserves the source and reports only candidate-support or no-change recommendations; every canonical status remains unchanged, zero gates are promoted, and the report cannot change readiness, approve a release, or authorize distribution.
