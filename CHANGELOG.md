@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Added a one-click Reset Sync action for Simulator road video. It restores a neutral `0.00 s` offset and `1.000000` playback rate, seeks the local video immediately, discloses the result, and persists the reset for that log without changing recorded timing or samples.
+
 - Made repeated Simulator video-alignment clicks latest-value-wins per log. An older queued preference write is discarded when that same log already has a newer offset or rate request, preventing rapid frame nudges from restoring a stale intermediate value without allowing activity on another log to cancel its save.
 
 - Made Simulator video-alignment changes durably complete before their interface actions finish. Apply Sync and each ±0.10-second nudge now await the per-log local preference write, so persistence failures are reported instead of becoming unobserved background errors.
