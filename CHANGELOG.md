@@ -24,6 +24,8 @@ Unreleased entries are grouped by completion date, newest first.
 
 #### Improved
 
+- Made Simulator video-alignment changes durably complete before their interface actions finish. Apply Sync and each ±0.10-second nudge now await the per-log local preference write, so persistence failures are reported instead of becoming unobserved background errors.
+
 - Added immediate ±0.10-second Simulator video-alignment nudges. Each nudge seeks local video immediately, shows the resulting offset and playback rate, persists per log, and does not modify log timing or exact samples.
 
 - Hardened the local GoPro playback-proxy cache. Valid proxies are reused, new copies remain uniquely partial and unplayable until length verification and atomic promotion complete, and stale cleanup is restricted to Husky-named top-level cache entries. The active proxy, originals, `.LRV` sidecars, subdirectories, and unrelated temporary files are never cleanup targets.
