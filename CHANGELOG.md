@@ -10,6 +10,36 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+No public-facing changes have been recorded after the 0.9.0 weekly Public Demonstration refresh.
+
+## [0.9.0] - 2026-08-03
+
+### Added
+
+- Added multi-select business types for Performance / Tuning, Injector Testing / Cleaning, and Diesel Diagnostics / Fuel-System shops. Supported combinations adjust the recommended starting view without removing Professional capabilities or records.
+- Added bounded bulk and large-log import/review improvements, Husky-native customer session-report layouts, Tune Library originals and lineage, linked work records, and strengthened backup/recovery workflows.
+- Added the current accessibility, localization, and shared-scrollbar corrections across the Windows desktop application.
+
+### Changed
+
+- Simulator remains visible as planned work but every navigation, menu, and saved-log entry point is intentionally disabled in the Public Demonstration package while its realistic cockpit and scenery remain under development.
+- The weekly public package now identifies version 0.9.0, retains the five-day evaluation that begins with the first successfully saved real log, and preserves view/export access after expiration.
+
+### Privacy and safety
+
+- Processing and encrypted storage remain local to the computer; nothing is uploaded automatically.
+- Sensitive backup, restore, inventory, tune-original, and source-extraction actions use explicit fail-closed acknowledgement boundaries.
+- This remains unsigned pre-release evaluation software and is not approved for production shop use. Use copied logs and fictional or test customer information.
+
+### Validation
+
+- The Release solution built with zero warnings and zero errors.
+- All 113 foundation checks passed, along with 100% Spanish literal coverage, complete German/Russian catalogs, the application-wide scrollbar audit, and native Public Demonstration verification that Simulator is disabled.
+- The MSI, public bundle ZIP, and standalone checksum were downloaded again from the published release and matched their exact local byte counts and SHA-256 identities.
+- Installer lifecycle mutation remains unperformed on this development computer because a related Husky product is installed; independent clean-machine, Windows 10, signing, legal, licensing completion under LIC-003, and final production acceptance remain open gates.
+
+### Detailed development record
+
 ### 2026-08-02
 
 #### Added
@@ -223,5 +253,6 @@ Unreleased entries are grouped by completion date, newest first.
 - Analysis and injector calculations are descriptive aids, not automatic diagnosis, pass/fail, tuning, or machine-control decisions.
 - Independent clean-machine coverage, Windows 10 acceptance, code signing, legal review, and production-release approval remain incomplete.
 
-[Unreleased]: https://github.com/nbjelanovic/HuskyPerformance-Releases/compare/v0.8.99-public-demo...HEAD
+[Unreleased]: https://github.com/nbjelanovic/HuskyPerformance-Releases/compare/v0.9.0-public-demo...HEAD
+[0.9.0]: https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo
 [0.8.99]: https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.8.99-public-demo
