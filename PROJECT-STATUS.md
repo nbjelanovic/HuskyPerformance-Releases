@@ -1,6 +1,6 @@
 # Husky Performance Project Status
 
-_Last updated: July 30, 2026_
+_Last updated: August 3, 2026_
 
 This page is the easiest place to understand what people can download today, what is being developed, what may appear in the next trial release, and what remains on the longer-term roadmap.
 
@@ -8,14 +8,14 @@ Husky Performance is proprietary, pre-release Windows software for professional 
 
 ## Quick links
 
-- [Download the current Public Demonstration Preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.8.99-public-demo)
+- [Download the current Public Demonstration Preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo)
 - [Read the detailed public changelog](CHANGELOG.md)
 - [Learn about becoming a testing partner](TESTING-PARTNERS.md)
 - [Follow Husky Performance on Facebook](https://www.facebook.com/HuskyPerformanceApp)
 
 ## Currently Available
 
-### Husky Performance 0.8.99 Public Demonstration Preview
+### Husky Performance 0.9.0 Public Demonstration Preview
 
 The current public release is a five-day Windows x64 evaluation intended to prove that Husky is a genuine working desktop application and to collect practical feedback.
 
@@ -23,6 +23,10 @@ It currently includes:
 
 - Local ECU-log import and saved-log organization
 - Full-resolution channel analysis and log comparison
+- Multi-file import queues plus bounded large-log review
+- Multi-select professional business types and composed starting recommendations
+- Tune Library originals, lineage, relationships, and protected export workflows
+- Bounded Husky-native customer session-report layouts
 - Customer, vehicle, and work-order organization
 - Injector Service workflows and reports
 - PDF, CSV, HTML, image, and package-oriented export workflows where applicable
@@ -30,6 +34,7 @@ It currently includes:
 - English, Spanish, German, and Russian interface support
 - Local encrypted demonstration storage
 - No automatic telemetry or uploads
+- Simulator remains visible but every public-package entry point is intentionally disabled while its presentation remains in development
 
 The five-day evaluation begins with the first successfully saved real log, not when the application is installed. After expiration, safe viewing, export, backup, and restore access remain available.
 
@@ -39,7 +44,7 @@ The current preview is unsigned pre-release software. Windows may show an unknow
 
 ### Log Simulator and virtual dashboard
 
-A new Simulator workspace is being developed to replay exact samples from a saved log on their original recorded timeline.
+Simulator remains an internal development workspace for replaying exact samples from a saved log on their original recorded timeline. It is deliberately disabled in the 0.9.0 Public Demonstration package until its realistic cockpit, scenery, gauges, controls, and packaged behavior receive owner acceptance.
 
 Current validated development capabilities include:
 
@@ -78,19 +83,11 @@ Passing local checks do not by themselves make a build production-ready. Package
 
 ## Potential Next Trial Release
 
-The next trial release may include the validated corrections recorded under [Unreleased](CHANGELOG.md), with the improved Simulator gauge dashboard as a leading candidate.
+Work after 0.9.0 will remain limited to validated corrections recorded under [Unreleased](CHANGELOG.md) and explicitly approved workflow increments.
 
-A first public Simulator presentation would focus on:
+Simulator can return to a public build only after its cockpit, scenery, gauges, controls, and packaged playback receive explicit owner acceptance. Until then, it remains visible but disabled in public packages.
 
-- Exact saved-log playback
-- Dashboard editing and layout persistence
-- Gauge styles, sizes, Min/Max choices, and channel presets
-- Stop/reset and full-screen gauge operation
-- Honest availability rules for performance measurements
-
-The experimental inside-car/track artwork will not be promoted unless it receives a substantial redesign and explicit owner approval.
-
-This is a candidate scope, not a release announcement. A new package will not be published until its exact version and contents are reviewed, its safety language is correct, package and installer checks pass, and owner approval is recorded.
+Any later trial build remains candidate scope until its exact version and contents are reviewed, its safety language is correct, package and installer checks pass, and owner approval is recorded.
 
 ## Roadmap
 
