@@ -7,7 +7,7 @@ This repository is the official public download and release-information location
 ## Start here
 
 - **[Project Status](PROJECT-STATUS.md)** — the clearest overview of what is available, what is in progress, what may enter the next trial release, and what is on the roadmap
-- **[Download the current preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.8.99-public-demo)** — Husky Performance 0.8.99 Public Demonstration Preview
+- **[Download the current preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo)** — Husky Performance 0.9.0 Public Demonstration Preview
 - **[Public Changelog](CHANGELOG.md)** — dated development changes and exact numbered-release contents
 - **[Testing Partners](TESTING-PARTNERS.md)** — how established performance shops can provide practical feedback
 
@@ -21,6 +21,8 @@ The Public Demonstration Preview is designed to let prospective users verify tha
 - Separate encrypted demonstration database
 - Safe viewing, export, backup, and restore access after evaluation expiration
 - English, Spanish, German, and Russian interface and report support
+- Multi-select professional business types, bulk/large-log review, Tune Library, and bounded customer report layouts
+- Simulator remains visible but is intentionally disabled while its presentation is still in development
 - Local processing with no automatic telemetry or uploads
 
 Use copied logs and fictional or test customer information only.
