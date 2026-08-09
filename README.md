@@ -6,28 +6,34 @@ This repository is the official public download and release-information location
 
 ## Start here
 
-- **[Project Status](PROJECT-STATUS.md)** — the clearest overview of what is available, what is in progress, what may enter the next trial release, and what is on the roadmap
-- **[Download the current preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo)** — Husky Performance 0.9.0 Public Demonstration Preview
-- **[Public Changelog](CHANGELOG.md)** — dated development changes and exact numbered-release contents
+- **[Download the current preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.1-public-demo)** — Husky Performance 0.9.1 Public Demonstration Preview
+- **[Project Status](PROJECT-STATUS.md)** — what is available now, what is being validated, and what remains before production
+- **[Public Changelog](CHANGELOG.md)** — exact numbered-release contents and historical changes
 - **[Testing Partners](TESTING-PARTNERS.md)** — how established performance shops can provide practical feedback
 
-## Public Demonstration Preview
+## Current Public Demonstration Preview
 
-The Public Demonstration Preview is designed to let prospective users verify that Husky is a genuine working Windows application.
+Version 0.9.1 is an unsigned five-day Windows x64 evaluation. It is self-contained; no separate .NET or PowerShell installation is required.
 
-- Windows x64
-- Self-contained; no separate .NET or PowerShell installation required
-- Five-day evaluation beginning with the first successfully saved real log
-- Separate encrypted demonstration database
-- Safe viewing, export, backup, and restore access after evaluation expiration
-- English, Spanish, German, and Russian interface and report support
-- Multi-select professional business types, bulk/large-log review, Tune Library, and bounded customer report layouts
-- Simulator remains visible but is intentionally disabled while its presentation is still in development
-- Local processing with no automatic telemetry or uploads
+- The five-day evaluation begins with the first successfully saved real log.
+- Existing information remains viewable and exportable after the evaluation expires.
+- Processing and encrypted demonstration storage remain local to the computer.
+- Nothing is uploaded automatically.
+- English, Spanish, German, and Russian interfaces and reports are included.
+- Professional workflows include log import/review, exact-sample analysis, two-log comparison, customer-designed reports, customer/vehicle/work-order records, Tune Library, Injector Service, backup, and recovery.
+- Simulator has been removed completely so the trial stays focused on useful professional workflows.
 
-Use copied logs and fictional or test customer information only.
+Use copied logs and fictional or test customer information only. Windows may show an unknown-publisher warning because the preview is not code-signed.
 
-When a verified public package is available, download it from this repository's **Releases** section. Every release will identify the exact version and include SHA-256 checksums. See the [public changelog](CHANGELOG.md) for released improvements and work completed for the next validated preview.
+### Verify the download
+
+The release contains exactly one MSI, one compact ZIP, and one checksum sidecar.
+
+Public bundle SHA-256:
+
+`F705A83F8E84B7E5EB8A645449DD782879F8CD12129EC948B82324947E0A26DC`
+
+Download only from this repository's [Releases](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases) page and compare the ZIP to the published `.sha256` file.
 
 ## Professional testing partners wanted
 
@@ -51,8 +57,8 @@ Husky Performance is proprietary software. No open-source license is granted by 
 
 ## Official links
 
+- [Current 0.9.1 release](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.1-public-demo)
 - [Project Status](PROJECT-STATUS.md)
-- [Releases](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases)
 - [Changelog](CHANGELOG.md)
 - [Testing Partners](TESTING-PARTNERS.md)
 - [Facebook](https://www.facebook.com/HuskyPerformanceApp)

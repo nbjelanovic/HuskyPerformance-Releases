@@ -1,114 +1,82 @@
 # Husky Performance Project Status
 
-_Last updated: August 3, 2026_
+_Last updated: August 9, 2026_
 
-This page is the easiest place to understand what people can download today, what is being developed, what may appear in the next trial release, and what remains on the longer-term roadmap.
+This page is the plain-language source of truth for what people can download today, what is being validated, and what remains before a production release.
 
 Husky Performance is proprietary, pre-release Windows software for professional automotive performance shops. It is under active development and is not yet approved for production shop use.
 
 ## Quick links
 
-- [Download the current Public Demonstration Preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo)
+- [Download Husky Performance 0.9.1 Public Demonstration Preview](https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.1-public-demo)
 - [Read the detailed public changelog](CHANGELOG.md)
 - [Learn about becoming a testing partner](TESTING-PARTNERS.md)
 - [Follow Husky Performance on Facebook](https://www.facebook.com/HuskyPerformanceApp)
 
 ## Currently Available
 
-### Husky Performance 0.9.0 Public Demonstration Preview
+### Husky Performance 0.9.1 Public Demonstration Preview
 
-The current public release is a five-day Windows x64 evaluation intended to prove that Husky is a genuine working desktop application and to collect practical feedback.
+The current public release is an unsigned five-day Windows x64 evaluation. The evaluation begins with the first successfully saved real log, not when the application is installed. After expiration, existing information remains available for safe viewing, export, backup, and restore.
 
-It currently includes:
+Version 0.9.1 includes:
 
-- Local ECU-log import and saved-log organization
-- Full-resolution channel analysis and log comparison
-- Multi-file import queues plus bounded large-log review
-- Multi-select professional business types and composed starting recommendations
-- Tune Library originals, lineage, relationships, and protected export workflows
-- Bounded Husky-native customer session-report layouts
-- Customer, vehicle, and work-order organization
-- Injector Service workflows and reports
-- PDF, CSV, HTML, image, and package-oriented export workflows where applicable
-- Complete and configuration/records backup and restore workflows
-- English, Spanish, German, and Russian interface support
-- Local encrypted demonstration storage
-- No automatic telemetry or uploads
-- Simulator remains visible but every public-package entry point is intentionally disabled while its presentation remains in development
+- Local ECU-log import, bulk review, source provenance, and saved-log organization
+- Full-resolution exact-sample analysis and compatible two-log comparison
+- Operator-reviewed customer session and comparison reports with bounded, reusable layouts
+- Customer, vehicle, work-order, workflow, board, and privacy-safe history records
+- Exact-original Tune Library storage, lineage, review history, relationships, and protected export
+- Injector Service intake, association, reporting, and signed request/results exchange workflows
+- Complete and configuration/records backup, verified recovery review, and Recovery & Rollback
+- Fixed non-scrolling Dashboard plus current keyboard, screen-reader, enlarged-text, and scrollbar corrections
+- English, Spanish, German, and Russian interface/report support
+- Local encrypted demonstration storage with no automatic telemetry or uploads
+- Complete removal of Simulator from the product and package
 
-The five-day evaluation begins with the first successfully saved real log, not when the application is installed. After expiration, safe viewing, export, backup, and restore access remain available.
+Use copied logs and fictional or test customer information only. Windows may show an unknown-publisher warning because the preview is not code-signed.
 
-The current preview is unsigned pre-release software. Windows may show an unknown-publisher warning. Use copied logs and fictional or test customer information only.
+The release page contains exactly one MSI, one compact ZIP, and one checksum sidecar. The compact ZIP SHA-256 is:
+
+`F705A83F8E84B7E5EB8A645449DD782879F8CD12129EC948B82324947E0A26DC`
 
 ## In Progress
 
-### Log Simulator and virtual dashboard
+Development continues on practical professional value rather than visual simulation:
 
-Simulator remains an internal development workspace for replaying exact samples from a saved log on their original recorded timeline. It is deliberately disabled in the 0.9.0 Public Demonstration package until its realistic cockpit, scenery, gauges, controls, and packaged behavior receive owner acceptance.
+- External Windows 10 and independent clean-machine/shop acceptance for the published trial
+- Usability feedback from established performance and injector-service businesses
+- Log review, comparison, exact-data analysis, and customer-designed reporting
+- Customer, vehicle, work-order, Tune Library, and Injector Service workflows
+- Backup, restore, recovery, security, accessibility, and performance evidence
+- Guided external-test coverage for the current eleven core workflows
+- Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
 
-Current validated development capabilities include:
-
-- Play, pause, Stop and return to the beginning, restart, timeline scrubbing, and 0.25x through 4x playback
-- A maximum of eight visible gauges so the dashboard remains readable
-- Channel presets for common engine, fuel/air, temperature, wheel, and chassis views
-- Per-gauge Analog, Dial, Digital, LED Ring, or Bar presentation
-- Per-gauge Small, Medium, or Large sizing
-- Optional recorded Min/Max display
-- Edit Dashboard and Close Editor modes
-- A visible alignment grid with position snapping
-- Movable gauges and a movable or hideable performance panel
-- Full-screen playback with a visible exit action
-- Per-log dashboard-layout persistence
-- Qualified 0–60 mph, 0–100 mph, 1/8-mile, 1/4-mile, custom acceleration, and braking calculations when the log truly contains enough compatible evidence
-
-Performance results are deliberately withheld when their required starting conditions, speed, RPM, throttle, time continuity, or uninterrupted run are not present. Simulator values are analysis aids, not calibrated instrumentation, verified track timing, automatic diagnosis, or safety decisions.
-
-The gauge artwork is being refined around original Husky designs informed by real automotive instrument conventions. Current work includes layered bezels, detailed scale divisions, numeric labels, tapered needles, high-contrast digital windows, and segmented LED-ring gauges.
-
-An experimental inside-car/track visualization also exists in development, but it is not considered presentation-ready and is not approved for promotional screenshots. The gauge dashboard is the priority.
-
-### Application quality and release validation
-
-Development also continues on:
-
-- Window sizing, scrolling, accessibility, and enlarged-text behavior
-- Saved-log analysis and comparison workflows
-- Vehicle and chronological session history
-- Injector Service request/result exchange and reporting
-- Backup, restore, recovery, and data-protection evidence
-- German and Russian coverage and terminology review
-- Package, installer, clean-machine, and supported-Windows validation
-
-Passing local checks do not by themselves make a build production-ready. Package validation, independent-machine testing, owner acceptance, signing, licensing, and legal review are tracked separately.
+Passing local or packaged checks do not by themselves make Husky production-ready. The public trial does not waive the independent, legal, signing, licensing, or production-acceptance gates.
 
 ## Potential Next Trial Release
 
-Work after 0.9.0 will remain limited to validated corrections recorded under [Unreleased](CHANGELOG.md) and explicitly approved workflow increments.
+Work after 0.9.1 remains limited to validated corrections and explicitly approved workflow improvements recorded under [Unreleased](CHANGELOG.md).
 
-Simulator can return to a public build only after its cockpit, scenery, gauges, controls, and packaged playback receive explicit owner acceptance. Until then, it remains visible but disabled in public packages.
-
-Any later trial build remains candidate scope until its exact version and contents are reviewed, its safety language is correct, package and installer checks pass, and owner approval is recorded.
+Any later trial remains candidate scope until its exact contents, safety text, package, installer lifecycle, and owner publication decision are recorded. Simulator is not current or planned product scope.
 
 ## Roadmap
 
 ### Nearer-term priorities
 
-- Complete a trusted business-only Professional trial release
-- Continue improving Simulator gauges and useful default layouts
-- Expand practical ECU-log analysis, comparison, and reporting workflows
-- Strengthen customer, vehicle, work-order, and session history
-- Continue Injector Service intake, testing, exchange, analysis, and customer-report workflows
-- Complete package, installer, backup/recovery, security, accessibility, and performance evidence
-- Gather practical feedback from established gasoline and diesel performance shops
+- Gather useful feedback from qualified gasoline, diesel, dyno, and injector-service shops
+- Expand practical log analysis, comparison, and reporting workflows
+- Strengthen customer, vehicle, work-order, Tune Library, and chronological history workflows
+- Continue Injector Service intake, testing, exchange, analysis, and customer reporting
+- Complete external Windows, backup/recovery, security, accessibility, and performance evidence
 
 ### Required before a paid production release
 
-- Production licensing and Owner/team administration
+- Production licensing and enforceable Owner/team administration
 - Trusted Windows code signing and publisher identity
 - Privacy, terms, disclaimers, and legal review
-- Clean-machine and supported Windows acceptance
-- Independent shop testing and owner acceptance
-- Final release-package and installer lifecycle approval
+- Clean-machine and supported-Windows acceptance
+- Independent shop testing and owner production acceptance
+- Final production package and installer approval
 
 ### Longer-term possibilities
 
@@ -117,10 +85,9 @@ These are possibilities rather than promises and are outside the immediate relea
 - Optional hybrid or multi-computer synchronization
 - Multi-location shop operations
 - Customer portals, scheduling, and remote dashboards
-- Shared shop presets and templates
 - Public plug-in capabilities
-- AI-assisted interpretation with strict evidence and safety boundaries
-- Calibration context tools
+- Evidence-bounded AI-assisted interpretation
+- Read-only calibration context tools
 
 Calibration writing or automatic tune changes are not part of the current approved product scope.
 
@@ -128,7 +95,7 @@ Calibration writing or automatic tune changes are not part of the current approv
 
 - **Currently Available** means included in the public download linked above.
 - **In Progress** means implemented or actively being refined in private development; it is not necessarily downloadable yet.
-- **Potential Next Trial Release** means candidate scope that still requires release approval.
+- **Potential Next Trial Release** means candidate scope that still requires a separate release decision.
 - **Roadmap** means intended direction or possible future work, not a delivery promise.
 
-The [public changelog](CHANGELOG.md) records completed public-facing development work by date. Numbered release sections describe what is actually included in a published package.
+The [public changelog](CHANGELOG.md) records released changes and work completed after the current preview.

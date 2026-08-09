@@ -10,7 +10,34 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
-No public-facing changes have been recorded after the 0.9.0 weekly Public Demonstration refresh.
+No public-facing changes have been recorded after the 0.9.1 Public Demonstration release.
+
+## [0.9.1] - 2026-08-09
+
+### Changed
+
+- Removed Simulator completely from navigation, Saved Logs actions, implementation, help, localization, and package resources so the public trial stays focused on useful professional workflows.
+- Added operator-reviewed two-log comparison reports and versioned shared comparison templates with bounded stable-channel matching, exact source identity, stale-review rejection, and privacy-minimized history.
+- Kept Dashboard fixed and non-scrolling while strengthening keyboard, enlarged-text, selector, list, grid, report, and Saved Logs accessibility behavior.
+- Expanded direct packaged acceptance for log import/review, customer-designed reports, customer/work-order and vehicle history, exact Tune Library attach/export, backup/recovery, and two-installation Injector Service exchange.
+
+### Reliability and safety
+
+- Hardened encrypted database migration/replacement, backup archive inspection, atomic backup completion, restore boundaries, first-use key publication, and recovery identity creation under concurrency and failure.
+- Hardened CSV, ASNU, injector-exchange, support-package, guided-test-package, calibration-file, and managed-source processing against hostile sizes, duplicate entries, non-finite values, stale fingerprints, and partial output.
+- Preserved copied/fictional-data guidance, local encrypted storage, no automatic uploads, post-expiration view/export access, and explicit review gates for sensitive exports and recovery actions.
+
+### Validation
+
+- Release build: zero warnings and zero errors; foundation checks: 92/92.
+- Final coordinated stabilization: Safe 60/60 and Full 94/94 with zero failed or skipped checks.
+- The exact final 0.9.0-to-0.9.1 MSI lifecycle passes install, launch, repair, major upgrade/relaunch, downgrade rejection, uninstall, cleanup, and isolated user-data preservation.
+- The published release contains exactly one MSI, one compact ZIP, and one checksum sidecar. GitHub's server-side digests and separate anonymous public downloads match the retained release files byte-for-byte.
+
+### Known limitations
+
+- This is unsigned pre-release demonstration software and is not approved for production shop use.
+- Windows 10, independent clean-machine/shop testing, signing, licensing completion under LIC-003, legal review, and production acceptance remain open gates.
 
 ## [0.9.0] - 2026-08-03
 
@@ -22,7 +49,7 @@ No public-facing changes have been recorded after the 0.9.0 weekly Public Demons
 
 ### Changed
 
-- Simulator remains visible as planned work but every navigation, menu, and saved-log entry point is intentionally disabled in the Public Demonstration package while its realistic cockpit and scenery remain under development.
+- In the historical 0.9.0 package, Simulator remained visible but disabled. Version 0.9.1 supersedes that state and removes Simulator completely.
 - The weekly public package now identifies version 0.9.0, retains the five-day evaluation that begins with the first successfully saved real log, and preserves view/export access after expiration.
 
 ### Privacy and safety
@@ -253,6 +280,7 @@ No public-facing changes have been recorded after the 0.9.0 weekly Public Demons
 - Analysis and injector calculations are descriptive aids, not automatic diagnosis, pass/fail, tuning, or machine-control decisions.
 - Independent clean-machine coverage, Windows 10 acceptance, code signing, legal review, and production-release approval remain incomplete.
 
-[Unreleased]: https://github.com/nbjelanovic/HuskyPerformance-Releases/compare/v0.9.0-public-demo...HEAD
+[Unreleased]: https://github.com/nbjelanovic/HuskyPerformance-Releases/compare/v0.9.1-public-demo...HEAD
+[0.9.1]: https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.1-public-demo
 [0.9.0]: https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.9.0-public-demo
 [0.8.99]: https://github.com/nbjelanovic/HuskyPerformance-Releases/releases/tag/v0.8.99-public-demo
