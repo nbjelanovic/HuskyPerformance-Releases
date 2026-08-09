@@ -10,7 +10,9 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
-No public-facing changes have been recorded after the 0.9.1 Public Demonstration release.
+### 2026-08-09
+
+- Updated the separate guided external-test companion for a future controlled package. Its eleven-step plan now covers every current core workflow, rejects Simulator and retired workspace names, requires copied or fictional test data, permits unavailable fixture-dependent work to be marked Not tested, and uploads nothing automatically. This companion update is not part of the published 0.9.1 download.
 
 ## [0.9.1] - 2026-08-09
 
