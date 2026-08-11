@@ -10,6 +10,18 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+### 2026-08-11
+
+- Replaced unconditional Dashboard success claims with evidence-backed library, import, analysis, and backup states. The private-development Dashboard now distinguishes checking, empty, review, usable, ready, needs-attention, and unavailable conditions from real loaded results while keeping the fixed non-scrolling layout.
+- Expanded the verified recovery-point browser with explicit refresh, aggregate-only inspection, privacy-safe summary copy, folder handoff, and restore-review handoff. Each action remains operator initiated, re-verifies its selected backup, exposes no full backup path, and never restores, deletes, cleans up, or uploads automatically.
+- Expanded read-only storage accounting to include Husky-managed video and Injector Exchange files and to base drive-pressure guidance on the complete known Husky footprint. The checks read metadata and report limitations; they do not compact or delete data.
+- Version 0.9.1 remains the current public preview. No later public preview is authorized until an established automotive business completes meaningful workflow testing, provides substantive feedback, and the owner reviews that feedback.
+
+### 2026-08-10
+
+- Added a bounded, read-only Data Library health check covering encrypted-file state, protected-key presence, SQLite integrity, schema version, drive headroom, logical stored-content totals, reusable-page accounting, and privacy-safe summary copy. The action does not repair, compact, delete, upload, or expose customer records.
+- Added explicit, verified backup handoffs and draft retention-policy controls with conservative defaults and protected-invalid-file handling. Cleanup remains a separate acknowledged action; recovery-point inspection and ordinary verification do not remove files.
+
 ### 2026-08-09
 
 - Updated the separate guided external-test companion for a future controlled package. Its eleven-step plan now covers every current core workflow, rejects Simulator and retired workspace names, requires copied or fictional test data, permits unavailable fixture-dependent work to be marked Not tested, and uploads nothing automatically. This companion update is not part of the published 0.9.1 download.
