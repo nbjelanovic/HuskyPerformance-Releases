@@ -41,6 +41,8 @@ Download only from this repository's [Releases](https://github.com/nbjelanovic/H
 
 I am looking for established gasoline and diesel performance shops willing to test genuine development builds, provide practical workflow feedback, and help identify the capabilities that matter most in real shop environments.
 
+Participation is asynchronous by default: no meeting or phone call is required. Qualified shops can test on their own schedule and provide written notes, screenshots, reproducible steps, or a completed feedback package.
+
 Meaningful participation will be recognized. A testing partner whose sustained, practical feedback produces measurable improvements will receive complimentary Professional access when the appropriate production version becomes available. This is recognition for genuine participation—not an exchange for positive reviews, promotion, or public endorsement.
 
 [Read the testing-partner details](TESTING-PARTNERS.md) or contact the [Husky Performance Facebook Page](https://www.facebook.com/HuskyPerformanceApp).
