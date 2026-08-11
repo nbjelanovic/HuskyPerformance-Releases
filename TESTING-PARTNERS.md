@@ -1,6 +1,12 @@
 # Professional Testing Partners
 
-Husky Performance is entering a stage where real-world professional feedback can materially improve development priorities, terminology, workflows, importer coverage, analysis tools, and reports.
+Husky Performance is looking for an established automotive performance, tuning, injector, or diesel business to complete practical testing and provide honest written workflow feedback.
+
+Husky 0.9.1 is the current Public Demonstration Preview. Development continues, but no later public build will be released until qualified-business feedback is received.
+
+## No meeting or phone call required
+
+Participation is asynchronous by default. A testing partner can install the preview, work through relevant workflows on its own schedule, and send written notes, screenshots, reproducible steps, or a completed feedback package. A live sales call, demo, or scheduled meeting is not required.
 
 ## Who I am looking for
 
@@ -19,7 +25,7 @@ I am especially interested in working with an established performance businessâ€
 A strong testing partner may help by:
 
 - Testing genuine pre-release builds
-- Providing direct and honest criticism
+- Providing direct and honest written criticism
 - Explaining existing shop workflows and frustrations
 - Identifying missing capabilities that would provide real value
 - Providing properly anonymized sample logs where appropriate
@@ -36,7 +42,7 @@ This is not offered in exchange for praise, promotion, public endorsement, or a 
 
 ## Contact
 
-Message the [Husky Performance Facebook Page](https://www.facebook.com/HuskyPerformanceApp) with:
+Send one written message to the [Husky Performance Facebook Page](https://www.facebook.com/HuskyPerformanceApp) with:
 
 - Shop or business name
 - Location
@@ -46,5 +52,7 @@ Message the [Husky Performance Facebook Page](https://www.facebook.com/HuskyPerf
 - Logging and tuning platforms currently used
 - Workflows of greatest interest
 - Realistic testing availability
+
+After that initial qualification message, testing and feedback can remain written and self-paced.
 
 Please do not send customer-identifying records, private credentials, encryption keys, or unreviewed raw data through public GitHub pages.
