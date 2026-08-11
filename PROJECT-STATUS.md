@@ -1,10 +1,12 @@
 # Husky Performance Project Status
 
-_Last updated: August 9, 2026_
+_Last updated: August 11, 2026_
 
 This page is the plain-language source of truth for what people can download today, what is being validated, and what remains before a production release.
 
 Husky Performance is proprietary, pre-release Windows software for professional automotive performance shops. It is under active development and is not yet approved for production shop use.
+
+**Public-release hold:** Version 0.9.1 remains the current preview. No later public preview will be published until an established automotive business completes meaningful workflow testing, provides substantive feedback, and the owner reviews that feedback.
 
 ## Quick links
 
@@ -48,6 +50,8 @@ Development continues on practical professional value rather than visual simulat
 - Log review, comparison, exact-data analysis, and customer-designed reporting
 - Customer, vehicle, work-order, Tune Library, and Injector Service workflows
 - Backup, restore, recovery, security, accessibility, and performance evidence
+- Read-only Data Library health, storage-accounting, and backup-recovery tools completed after 0.9.1 and still undergoing private validation
+- Evidence-backed Dashboard states that distinguish ready, empty, review, and unavailable conditions without unconditional success claims
 - Guided external-test coverage for the current eleven core workflows
 - Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
 
@@ -57,7 +61,7 @@ Passing local or packaged checks do not by themselves make Husky production-read
 
 Work after 0.9.1 remains limited to validated corrections and explicitly approved workflow improvements recorded under [Unreleased](CHANGELOG.md).
 
-Any later trial remains candidate scope until its exact contents, safety text, package, installer lifecycle, and owner publication decision are recorded. Simulator is not current or planned product scope.
+There is no authorized next public trial today. The qualified-business feedback gate must be satisfied first; only then can an exact candidate, safety text, package, installer lifecycle, and owner publication decision be evaluated. Simulator is not current or planned product scope.
 
 ## Roadmap
 
