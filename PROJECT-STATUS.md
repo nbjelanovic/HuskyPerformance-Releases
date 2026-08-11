@@ -52,6 +52,7 @@ Development continues on practical professional value rather than visual simulat
 - Backup, restore, recovery, security, accessibility, and performance evidence
 - Read-only Data Library health, storage-accounting, and backup-recovery tools completed after 0.9.1 and still undergoing private validation
 - Evidence-backed Dashboard states that distinguish ready, empty, review, and unavailable conditions without unconditional success claims
+- An exact latest-log Analysis handoff that remains disabled until a real graphable preview loads, then opens that same saved log in the existing channel-selection workflow
 - Guided external-test coverage for the current eleven core workflows
 - Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
 
