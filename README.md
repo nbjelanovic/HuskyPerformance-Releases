@@ -3,6 +3,8 @@
 This repository is the official public download and release-information location for **Husky Performance**, a local-first Windows application being developed for professional automotive performance shops.
 
 > **Pre-release status:** Husky Performance is under active development and is not yet intended or approved for production shop use.
+>
+> **Public-release hold:** 0.9.1 remains the current preview. No later public preview will be published until an established automotive business completes meaningful workflow testing, provides substantive feedback, and the owner reviews that feedback.
 
 ## Start here
 
