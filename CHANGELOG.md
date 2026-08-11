@@ -12,6 +12,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 ### 2026-08-11
 
+- Corrected the private-development Dashboard's **Continue in Analysis** action so it no longer returns to the generic Saved Logs list. It starts disabled, becomes available only after the exact latest saved log supplies real graphable preview channels, and opens that same log in the existing Analysis channel selector. Empty, needs-channel, and unavailable states stay disabled, and no data changes automatically.
 - Replaced unconditional Dashboard success claims with evidence-backed library, import, analysis, and backup states. The private-development Dashboard now distinguishes checking, empty, review, usable, ready, needs-attention, and unavailable conditions from real loaded results while keeping the fixed non-scrolling layout.
 - Expanded the verified recovery-point browser with explicit refresh, aggregate-only inspection, privacy-safe summary copy, folder handoff, and restore-review handoff. Each action remains operator initiated, re-verifies its selected backup, exposes no full backup path, and never restores, deletes, cleans up, or uploads automatically.
 - Expanded read-only storage accounting to include Husky-managed video and Injector Exchange files and to base drive-pressure guidance on the complete known Husky footprint. The checks read metadata and report limitations; they do not compact or delete data.
