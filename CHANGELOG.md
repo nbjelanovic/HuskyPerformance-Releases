@@ -10,6 +10,11 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+### 2026-08-12
+
+- Corrected the private-development Dashboard's **Active Work** card so it no longer appears as a yellow warning for every queue. It now derives neutral **Empty**, informational **Active**, or warning **Needs attention** from the exact active, waiting, overdue, due-today, quality-check, and ready-for-pickup work-order counts. The visible icon, color, background, accessible state, and path-free guidance remain synchronized; no work order changes automatically.
+- Version 0.9.1 remains the current public preview. This private-development correction does not authorize or alter a public installer, and the qualified-business feedback hold still blocks any later preview.
+
 ### 2026-08-11
 
 - Corrected the private-development Dashboard's **Continue in Analysis** action so it no longer returns to the generic Saved Logs list. It starts disabled, becomes available only after the exact latest saved log supplies real graphable preview channels, and opens that same log in the existing Analysis channel selector. Empty, needs-channel, and unavailable states stay disabled, and no data changes automatically.
