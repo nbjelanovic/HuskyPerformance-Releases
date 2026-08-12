@@ -54,6 +54,7 @@ Development continues on practical professional value rather than visual simulat
 - Evidence-backed Dashboard states that distinguish ready, empty, review, and unavailable conditions without unconditional success claims
 - An evidence-backed Active Work card that remains neutral for an empty queue, informational for routine active work, and warns only when exact waiting, overdue, due-today, quality-check, or ready-for-pickup counts require attention
 - An exact latest-log Analysis handoff that remains disabled until a real graphable preview loads, then opens that same saved log in the existing channel-selection workflow
+- A selection-gated Recent Activity handoff that opens the exact selected saved log in Analysis, stays disabled without a current loaded row, and refuses stale rows after a refresh failure
 - Guided external-test coverage for the current eleven core workflows
 - Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
 
