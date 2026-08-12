@@ -12,6 +12,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 ### 2026-08-12
 
+- Added a private-development **Analyze selected** action to Dashboard Recent Activity. It stays disabled until the current Dashboard snapshot loads and one exact saved-log row is selected, then opens that stable log identity in the existing Analysis channel selector. Missing selection and refresh-failure states remain non-actionable, no data changes automatically, and the fixed non-scrolling layout remains intact.
 - Corrected the private-development Dashboard's **Active Work** card so it no longer appears as a yellow warning for every queue. It now derives neutral **Empty**, informational **Active**, or warning **Needs attention** from the exact active, waiting, overdue, due-today, quality-check, and ready-for-pickup work-order counts. The visible icon, color, background, accessible state, and path-free guidance remain synchronized; no work order changes automatically.
 - Version 0.9.1 remains the current public preview. This private-development correction does not authorize or alter a public installer, and the qualified-business feedback hold still blocks any later preview.
 
