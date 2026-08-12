@@ -1,6 +1,6 @@
 # Husky Performance Project Status
 
-_Last updated: August 11, 2026_
+_Last updated: August 12, 2026_
 
 This page is the plain-language source of truth for what people can download today, what is being validated, and what remains before a production release.
 
@@ -52,6 +52,7 @@ Development continues on practical professional value rather than visual simulat
 - Backup, restore, recovery, security, accessibility, and performance evidence
 - Read-only Data Library health, storage-accounting, and backup-recovery tools completed after 0.9.1 and still undergoing private validation
 - Evidence-backed Dashboard states that distinguish ready, empty, review, and unavailable conditions without unconditional success claims
+- An evidence-backed Active Work card that remains neutral for an empty queue, informational for routine active work, and warns only when exact waiting, overdue, due-today, quality-check, or ready-for-pickup counts require attention
 - An exact latest-log Analysis handoff that remains disabled until a real graphable preview loads, then opens that same saved log in the existing channel-selection workflow
 - Guided external-test coverage for the current eleven core workflows
 - Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
