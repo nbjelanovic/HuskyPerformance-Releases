@@ -12,6 +12,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 ### 2026-08-13
 
+- Corrected private-development Settings search so common option names such as language, retention, and security mode route to the correct category instead of matching category titles only. Search terms include English, Spanish, German, and Russian keywords; zero matches now announce an accessible empty state and hide the previously selected panel, while clearing search restores all eight categories. Searching changes no setting.
 - Added private-development **View All** launch points to the Dashboard Saved Logs, Vehicles, and Customers counts. Each action opens the corresponding complete authoritative list, changes no records, and preserves the fixed non-scrolling Dashboard. Native validation confirmed all three routes at the supported minimum window size.
 - Added a private-development **Work orders** action to Dashboard Active Work. It stays disabled while the current snapshot is loading, when no active work exists, and after refresh failure; once active work is verified, it opens Customers & Jobs directly on the complete Jobs / Work Orders list. It clears only the narrowing job search, changes no customer or work-order data automatically, and preserves the fixed non-scrolling Dashboard.
 - Version 0.9.1 remains the current public preview. This private-development workflow improvement does not authorize or alter a public installer, and the qualified-business feedback hold still blocks any later preview.
