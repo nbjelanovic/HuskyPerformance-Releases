@@ -1,6 +1,6 @@
 # Husky Performance Project Status
 
-_Last updated: August 12, 2026_
+_Last updated: August 13, 2026_
 
 This page is the plain-language source of truth for what people can download today, what is being validated, and what remains before a production release.
 
@@ -56,6 +56,7 @@ Development continues on practical professional value rather than visual simulat
 - An exact latest-log Analysis handoff that remains disabled until a real graphable preview loads, then opens that same saved log in the existing channel-selection workflow
 - A selection-gated Recent Activity handoff that opens the exact selected saved log in Analysis, stays disabled without a current loaded row, and refuses stale rows after a refresh failure
 - A selection-gated Latest Imports handoff that opens the exact selected imported-log record in Saved Logs, clears stale narrowing filters, and refuses stale or missing records
+- A snapshot-gated Active Work handoff that remains disabled during checking, empty, and refresh-failure states, then opens the complete Jobs / Work Orders list without changing any record automatically
 - Guided external-test coverage for the current eleven core workflows
 - Production licensing, Owner/team administration, publisher identity, code signing, privacy, and legal review
 
