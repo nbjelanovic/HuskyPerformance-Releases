@@ -12,6 +12,7 @@ Unreleased entries are grouped by completion date, newest first.
 
 ### 2026-08-13
 
+- Added private-development **View All** launch points to the Dashboard Saved Logs, Vehicles, and Customers counts. Each action opens the corresponding complete authoritative list, changes no records, and preserves the fixed non-scrolling Dashboard. Native validation confirmed all three routes at the supported minimum window size.
 - Added a private-development **Work orders** action to Dashboard Active Work. It stays disabled while the current snapshot is loading, when no active work exists, and after refresh failure; once active work is verified, it opens Customers & Jobs directly on the complete Jobs / Work Orders list. It clears only the narrowing job search, changes no customer or work-order data automatically, and preserves the fixed non-scrolling Dashboard.
 - Version 0.9.1 remains the current public preview. This private-development workflow improvement does not authorize or alter a public installer, and the qualified-business feedback hold still blocks any later preview.
 
