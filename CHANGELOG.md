@@ -10,6 +10,11 @@ Unreleased entries are grouped by completion date, newest first.
 
 ## [Unreleased]
 
+### 2026-08-13
+
+- Added a private-development **Work orders** action to Dashboard Active Work. It stays disabled while the current snapshot is loading, when no active work exists, and after refresh failure; once active work is verified, it opens Customers & Jobs directly on the complete Jobs / Work Orders list. It clears only the narrowing job search, changes no customer or work-order data automatically, and preserves the fixed non-scrolling Dashboard.
+- Version 0.9.1 remains the current public preview. This private-development workflow improvement does not authorize or alter a public installer, and the qualified-business feedback hold still blocks any later preview.
+
 ### 2026-08-12
 
 - Added a private-development **Open selected** action to Dashboard Latest Imports. It stays disabled until the current Dashboard snapshot loads and one exact imported-log row is selected, then clears prior Saved Logs narrowing and selects that stable record for review. Missing selection, refresh failure, and a record that is no longer active remain non-actionable; no saved log changes automatically.
